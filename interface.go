@@ -28,5 +28,5 @@ func main() {
 	person := Person{Name: "Ahmad"}
 	animal := Animal{Name: "Kucing"}
 	SayHello(person)
-	SayHello(animal)
+	SayHello(anim)
 }
