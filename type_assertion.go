@@ -8,7 +8,10 @@ func random() any {
 
 func main() {
 	var result any = random()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 57a66b4015696082a1efa820149800c3c4794088
 	//var resultString string = result.(string)
 	//fmt.Println(resultString)
 	//var resultInt int = result.(int)
