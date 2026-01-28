@@ -10,4 +10,21 @@ func main() {
 	for index, value := range buah {
 		fmt.Println("Buah ke ", index+1, " adalah : ", value)
 	}
+<<<<<<< HEAD
+
+	buah1 := buah
+	fmt.Printf("Awal - Alamat buah : %p, isi : %v\n", buah, buah)
+	fmt.Printf("Awal - Alamat buah1 : %p, isi : %v\n", buah1, buah1)
+	
+	buah = append(buah, "Manggis")
+	fmt.Println("\n-- Setelah Append --")
+	fmt.Printf("Baru - Alamat Bru buah : %p, isi : %v\n", buah, buah)
+	fmt.Printf("Lama - Alamat buah1 : %p, isi : %v\n", buah1, buah1)
+	
+	buah[0] = "Kelapa"
+	fmt.Println(buah)
+	fmt.Println(buah1)
+	
+=======
+>>>>>>> bb25d07b070ecb153b9e536c424dd8bdb8d2b07a
 }
